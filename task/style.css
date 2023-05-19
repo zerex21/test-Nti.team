@@ -161,16 +161,16 @@
   font-weight: 400;
   font-size: 50px;
   line-height: 59px;
+  margin-bottom: 60px;
   color: #292d32;
 }
 
-.view-goods {
-  margin-top: 60px;
+.show {
   display: flex;
   align-items: center;
 }
 
-.view-goods_button {
+.show_button {
   margin-right: 12px;
 }
 
@@ -234,6 +234,129 @@
   line-height: 32px;
   color: #292D32;
   margin-bottom: 81px;
+}
+
+.wrapper-goods {
+  max-width: 1400px;
+  padding-top: 163px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card-goods {
+  width: 440px;
+  background: #f2f2f2;
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+
+.card-goods:nth-child(2n+1) {
+  background: #f9f9f9;
+}
+
+.card-goods:nth-child(1) {
+  background-color: white;
+}
+
+.goods-img {
+  display: flex;
+  padding-left: 40px;
+  padding-top: 40px;
+  position: relative;
+}
+
+.goods_icon {
+  position: absolute;
+}
+
+.goods_icon_lap {
+  top: -10px;
+  right: 13px;
+}
+
+.goods-info {
+  padding-left: 40px;
+  padding-bottom: 40px;
+}
+
+.goods-info_lap,
+.goods-info_comp,
+.goods-info_serv,
+.goods-info_dell,
+.goods-info_EMC {
+  padding-top: 186px;
+}
+
+.goods_icon_comp {
+  top: -21px;
+  right: 41px;
+}
+
+.goods-icon_serv {
+  top: 81px;
+  right: 27px;
+}
+
+.goods-icon_dell {
+  top: 59px;
+  right: 57px;
+}
+
+.goods-icon_EMC {
+  top: 38px;
+  right: 30px;
+}
+
+.card-name_review {
+  max-width: 388px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 50px;
+  color: #292d32;
+  padding-bottom: 30px;
+}
+
+.card-name_describe {
+  max-width: 368px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  color: #838383;
+  padding-bottom: 45px;
+}
+
+.count_goods {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 25px;
+  line-height: 38px;
+  color: #292d32;
+}
+
+.goods-amout {
+  padding-bottom: 5px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+  color: #838383;
+}
+
+.goods-name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 38px;
+  color: #292d32;
 }
 
 /*# sourceMappingURL=style.css.map */
