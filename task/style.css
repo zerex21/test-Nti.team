@@ -9,4 +9,73 @@
   max-width: 1920px;
 }
 
+.wrapper-header {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  padding: 27px 0 26px 0;
+  max-width: 1400px;
+  /*   align-items: center; */
+}
+
+.header-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  padding-right: 60px;
+}
+
+.header-nav {
+  padding-right: 48px;
+  width: 536px;
+  letter-spacing: -0.2px;
+}
+.header-nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+.header-nav ul li {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 17.58px;
+  text-transform: uppercase;
+  color: #292d32;
+  list-style: none;
+}
+
+.header-sprite {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 286px;
+  align-items: center;
+}
+.header-sprite_icon {
+  height: 55px;
+}
+
+.basket-count {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background: #48a4eb;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  right: 0;
+  top: 9px;
+}
+
 /*# sourceMappingURL=style.css.map */

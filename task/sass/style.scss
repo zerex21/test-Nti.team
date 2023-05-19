@@ -1,5 +1,3 @@
-@import "./header/header";
-
 *{
     margin: 0;
     padding: 0;
@@ -11,3 +9,7 @@
     margin: 0 auto;
     max-width: 1920px;
 }
+
+@import "./header/header";
+
+
