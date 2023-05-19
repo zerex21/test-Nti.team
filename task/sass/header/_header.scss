@@ -2,15 +2,15 @@
   background-color: #ffffff;
   display: flex;
   justify-content: space-between;
-  padding: 27px 0 26px 0;
+  padding: 27px 0 22px 0;
   max-width: 1400px;
-  /*   align-items: center; */
 }
 
 .header-info {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 }
 
 .header-logo {
@@ -20,8 +20,10 @@
 .header-nav {
   padding-right: 48px;
   width: 536px;
-  letter-spacing:-0.2px;
+
+
   ul {
+    padding-bottom: 3px;
     display: flex;
     justify-content: space-between;
 
