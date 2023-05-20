@@ -1,0 +1,106 @@
+.footer-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.footer-info {
+  display: flex;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-top: 61px;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 49px;
+  overflow: hidden;
+}
+
+.footer-layout {
+  display: flex;
+  width: 64.9%;
+  justify-content: space-between;
+}
+
+.footer-cabinet,
+.footer-help,
+.footer-catalog {
+  ul {
+    li {
+      list-style: none;
+
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 19px;
+      display: flex;
+      align-items: center;
+      color: #292d32;
+      padding-bottom: 10px;
+    }
+  }
+}
+
+.footer-catalog_name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29px;
+  color: #292d32;
+  padding-bottom: 15px;
+}
+
+.footer-text {
+  position: absolute;
+  font-family: "Rubik Mono One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 187px;
+  line-height: 173px;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #f2f2f2 0%, rgba(242, 242, 242, 0) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  opacity: 0.7;
+  right: -36px;
+  top: 135px;
+}
+
+.logo-footer {
+  padding-top: 29px;
+  padding-right: 190px;
+}
+
+.footer-contacts {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 38px;
+  .contacts-icons {
+    padding-top: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+}
+
+.footer-contacts_name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 133.69%;
+  color: #838383;
+  padding-bottom: 14px;
+}
+
+.footer-contacts_expl {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #292d32;
+}
