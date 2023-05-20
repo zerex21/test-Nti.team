@@ -9,10 +9,11 @@
     margin: 0 auto;
     max-width: 1920px;
 }
-
+@import "./main/news";
 @import "./header/header";
 @import "./main/preview";
 @import "./main/goods";
-@import "./main/describes"
+@import "./main/describes";
+
 
 
