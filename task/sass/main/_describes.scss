@@ -209,17 +209,17 @@
     padding-left: 15px;
   }
 
-  .describes-container_cards{
-margin-top: 16px;
-padding-bottom: 104px;
+  .describes-container_cards {
+    margin-top: 16px;
+    padding-bottom: 104px;
   }
 
-  .describes_name_card::before{
+  .describes_name_card::before {
     content: "У нас   ";
   }
 
   .describes_name {
-    font-family: 'Euclid Circular A';
+    font-family: "Euclid Circular A";
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -229,53 +229,51 @@ padding-bottom: 104px;
     max-width: 281px;
   }
 
+  .describes_name_card {
+    max-width: 220px;
+  }
 
-    .describes_name_card{
-      max-width: 220px;
-    }
-
-
-  .describe_expl{
-    font-family: 'Euclid Circular A';
+  .describe_expl {
+    font-family: "Euclid Circular A";
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
     line-height: 20px;
     padding: 0 23px 16px 0;
-    color: #B7B7B7;
+    color: #b7b7b7;
     max-width: 300px;
   }
 
-  .describes_icon{
+  .describes_icon {
     max-width: 50px;
     max-height: 50px;
     margin-bottom: 16px;
   }
 
-  .describes_card{
+  .describes_card {
     margin-bottom: 20px;
     max-width: 345px;
-    border-radius: 10px
+    border-radius: 10px;
   }
-  .describes_card{
+  .describes_card {
     width: 345px;
   }
 
   .describes_card {
     background-image: url("/task/assets/imgs/Frame 44.png");
-}
+  }
 
-.describes_card_fourth{
-padding-bottom: 43px;
-}
+  .describes_card_fourth {
+    padding-bottom: 43px;
+  }
 
   .describe_card-container {
     margin-bottom: 0px;
     padding: 14px 0 0 16px;
-}
+  }
 
-.describes_icon img {
-  width: 31px;
-  height: 31px;
-}
+  .describes_icon img {
+    width: 31px;
+    height: 31px;
+  }
 }

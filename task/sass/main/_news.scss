@@ -185,3 +185,148 @@
     }
   }
 }
+
+@media (max-width: 935px) {
+  .wrapper-news_name {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #292d32;
+    padding: 21px 0 0 15px;
+  }
+
+  .wrapper-news_expl {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 150%;
+    /* or 22px */
+    padding: 21px 0 0 16px;
+
+    /* Unnamed Color */
+
+    color: #838383;
+  }
+  .wrapper-news_info {
+    display: block;
+    padding-top: 100px;
+
+    .show {
+      flex-direction: row-reverse;
+      justify-content: start;
+      height: 80px;
+      padding-left: 16px;
+    }
+  }
+  .wrapper-news-layout {
+    justify-content: center;
+    padding-top: 28px;
+  }
+  .wrapper-news_img {
+    height: 100%;
+    width: 345px;
+  }
+  .wrapper-news_show {
+    padding-top: 177px;
+    padding-left: 30px;
+  }
+  .wrapper-news_card {
+    display: flex;
+    justify-content: center;
+    margin-left: -19px;
+    height: 304px;
+    margin-bottom: 10px;
+  }
+  .card1 {
+    background-image: url("/task/assets/imgs/Card11.png");
+    margin-bottom: 20px;
+  }
+
+  .card2 {
+    background-image: url("/task/assets/imgs/Card22.png");
+    background-position: 46% 49%;
+  }
+
+  .card3 {
+    background-image: url("/task/assets/imgs/Card33.png");
+    background-position: 44% 46%;
+  }
+
+  .card4 {
+    display: none;
+  }
+
+  .card5 {
+    display: none;
+  }
+
+  .card6 {
+    display: none;
+  }
+
+  .wrapper-news_title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 100%;
+    /* or 25px */
+
+    color: #292d32;
+  }
+
+  .wrapper-news_text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    /* or 21px */
+
+    color: #292d32;
+  }
+
+  .wrapper-news_play {
+    width: 33px;
+    height: 33px;
+    margin-top: 0px;
+    margin-right: 44px;
+  }
+
+  .wrapper-news_data {
+    width: 39.41px;
+    height: 76.06px;
+    right: -10px;
+    top: 59px;
+  }
+
+  .wrapper-news_num {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 13px;
+    text-align: center;
+    padding-bottom: 6px;
+    color: #292d32;
+  }
+
+  .wrapper-news_month {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 11px;
+    text-align: center;
+    padding-left: 5px;
+    color: #292d32;
+    width: 30px;
+    white-space: nowrap;
+
+    overflow: hidden;
+  }
+}
