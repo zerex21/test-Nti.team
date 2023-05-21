@@ -564,9 +564,6 @@
   .preview-price {
     width: auto;
     background-image: url("/task/assets/imgs/image 23 (2).png");
-    /* background-position: right;
-    background-size: 252px 116px;
-    height: 376px; */
     background-position: 97% 52%;
     background-size: 255px 168px;
     height: 196px;
@@ -631,7 +628,7 @@
     font-size: 20px;
     line-height: 130%;
     /* or 26px */
-    color: #292D32;
+    color: #292d32;
   }
   .preview-dell {
     font-size: 110px;
