@@ -328,14 +328,17 @@ padding-bottom: 54px;
   .contacts-layout_window{
     display: block;
   }
+  .contacts-request{
+    padding-bottom: 57px;
+  }
 
   .phoneSmall{
     display: block;
   }
 
   .contacts-phone{
-top: 411px;
-left: 175px;
+    top: 638px;
+    left: 470px;
   }
   .phoneBig{
    /*  top: 200px; */
@@ -350,6 +353,11 @@ left: 175px;
     border-radius: 0 0 0 0 ;
 
   }
+
+  .contacts-phone{
+    top: 411px;
+    left: 175px;
+      }
 
   .contacts-our{
     padding-right: 0px;
@@ -563,7 +571,7 @@ height: 18.73px;
   background-image: url("/task/assets/imgs/Group 1184 (3).png");
 }
 
-.contacts-request{
+/* .contacts-request{
   padding-bottom: 57px;
-}
+} */
 }
