@@ -276,4 +276,10 @@
     width: 31px;
     height: 31px;
   }
+
+  .wrapper-news_card:nth-child(4),
+  .wrapper-news_card:nth-child(5),
+  .wrapper-news_card:nth-child(6){
+    display: none;
+  }
 }
