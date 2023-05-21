@@ -62,13 +62,13 @@
   right: 27px;
 }
 
-.goods-icon_dell{
-    top: 59px;
+.goods-icon_dell {
+  top: 59px;
   right: 57px;
 }
 
-.goods-icon_EMC{
-    top: 38px;
+.goods-icon_EMC {
+  top: 38px;
   right: 30px;
 }
 
@@ -122,19 +122,18 @@
   color: #292d32;
 }
 
-
 @media (max-width: 1480px) {
-  .wrapper-goods{
+  .wrapper-goods {
     justify-content: space-around;
   }
 }
 
 @media (max-width: 879px) {
-  .wrapper-goods{
-    padding-top:120px ;
+  .wrapper-goods {
+    padding-top: 120px;
   }
 
-  .goods-img{
+  .goods-img {
     padding-left: 20px;
     padding-top: 20px;
   }
@@ -142,51 +141,49 @@
   .goods_icon_lap {
     top: 15px;
     right: 22px;
-}
-
-.goods-info{
-  padding-left: 20px;
-  padding-bottom: 0px;
-}
-.goods-info_lap{
-  padding-top: 158px;
-}
-.goods_icon_comp {
-  top: 10px;
-  right: 22px;
-}
-.card-goods:nth-child(1){
-  margin-bottom: 36px;
-  /* border-radius: 10px; */
-}
-  .card-goods{
-    margin-bottom: 20px;
-    border-radius: 10px;
-
   }
 
-  .card-goods:nth-child(2n+1) {
-    background: #EEEEEE;
-}
+  .goods-info {
+    padding-left: 20px;
+    padding-bottom: 0px;
+  }
+  .goods-info_lap {
+    padding-top: 158px;
+  }
+  .goods_icon_comp {
+    top: 10px;
+    right: 22px;
+  }
+  .card-goods:nth-child(1) {
+    margin-bottom: 36px;
+  }
+  .card-goods {
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
 
-.card-goods:nth-child(1){
-  background-color: white;
-}
-  .card-name_review{
-    font-family: 'Roboto';
+  .card-goods:nth-child(2n + 1) {
+    background: #eeeeee;
+  }
+
+  .card-goods:nth-child(1) {
+    background-color: white;
+  }
+  .card-name_review {
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
     line-height: 35px;
 
-    color: #292D32;
+    color: #292d32;
 
     max-width: 240px;
     padding-bottom: 20px;
   }
 
-  .card-name_describe{
-    font-family: 'Roboto';
+  .card-name_describe {
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 300;
     font-size: 15px;
@@ -196,95 +193,97 @@
     padding-bottom: 32px;
   }
 
-  .card-goods{
-     width: 345px;
+  .card-goods {
+    width: 345px;
   }
 
-  .goods-info_comp{
+  .goods-info_comp {
     padding-top: 169px;
     padding-bottom: 6px;
   }
 
   .goods_icon {
-    img{
+    img {
       max-width: 302px;
     }
   }
 
-.goods-icon_serv {
-  top: 63px;
-  right: 21px;
-  img{
-    max-width: 292px;
-  }
-}
-
-.goods-info_serv {
-  padding-top: 170px;
-  padding-bottom: 3px;
-}
-
-.goods-icon_dell {
-  top: 47px;
-  right: 45px;
-  img{
-    max-width: 253px;
-  }
-}
-
-.goods-info_dell {
-  padding-top: 170px;
-  padding-bottom: 3px;
-}
-
-.goods-icon_EMC {
-  top: 31px;
-  right: 23px;
-  img{
-    max-width: 254px;
-  }
-}
-
-.goods-info_EMC {
-  padding-top: 170px;
-  padding-bottom: 6px;
-}
-
-
-
-  .count_goods{
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 100;
-font-size: 20px;
-line-height: 150%;
-color: #292D32;
+  .goods-icon_serv {
+    top: 63px;
+    right: 21px;
+    img {
+      max-width: 292px;
+    }
   }
 
-  .goods-amout{
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 300;
-font-size: 15px;
-line-height: 133.69%;
-color: #838383;
-padding-bottom: 0px;
+  .goods-info_serv {
+    padding-top: 170px;
+    padding-bottom: 3px;
   }
 
-  .goods-name{
-    font-family: 'Roboto';
+  .goods-icon_dell {
+    top: 47px;
+    right: 45px;
+    img {
+      max-width: 253px;
+    }
+  }
+
+  .goods-info_dell {
+    padding-top: 170px;
+    padding-bottom: 3px;
+  }
+
+  .goods-icon_EMC {
+    top: 31px;
+    right: 23px;
+    img {
+      max-width: 254px;
+    }
+  }
+
+  .goods-info_EMC {
+    padding-top: 170px;
+    padding-bottom: 6px;
+  }
+
+  .count_goods {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 150%;
+    color: #292d32;
+  }
+
+  .goods-amout {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 133.69%;
+    color: #838383;
+    padding-bottom: 0px;
+  }
+
+  .goods-name {
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 150%;
-    color: #292D32;
+    color: #292d32;
     padding-bottom: 17px;
   }
 
-  .goods_icon_comp{
-    /* padding-top: 171px; */
-    img{
+  .goods_icon_comp {
+    img {
       max-width: 264px;
     }
   }
+  .wrapper-goods {
+    padding-bottom: 102px;
+  }
+
+
 }
