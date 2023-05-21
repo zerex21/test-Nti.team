@@ -1,25 +1,29 @@
-*{
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
 }
 
+.wrapper {
+  margin: 0 auto;
+  max-width: 1920px;
+}
 
-.wrapper{
-    margin: 0 auto;
-    max-width: 1920px;
+@media (max-width: 1400px) {
+  .wrapper {
+    margin: 0 15px;
+  }
 }
 
 @font-face {
-    font-family: "Euclid Circular A";
-    src: url("/task/assets/fonts/Euclid Circular A Regular.ttf");
-  }
+  font-family: "Euclid Circular A";
+  src: url("/task/assets/fonts/Euclid Circular A Regular.ttf");
+}
 
-  @font-face {
-    font-family: "Rubik Mono One";
-    src: url("/task/assets/fonts/RubikOne-Regular.ttf");
-  }
-
+@font-face {
+  font-family: "Rubik Mono One";
+  src: url("/task/assets/fonts/RubikOne-Regular.ttf");
+}
 
 @import "./main/news";
 @import "./header/header";
@@ -28,6 +32,3 @@
 @import "./main/describes";
 @import "./main/contacts";
 @import "./footer/footer";
-
-
-
