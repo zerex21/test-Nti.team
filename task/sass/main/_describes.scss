@@ -1,0 +1,303 @@
+.wrapper-describes {
+  background: #f2f2f2;
+}
+
+.describes-info {
+  display: flex;
+  /*  justify-content: space-between; */
+  align-items: center;
+}
+
+
+.describes-view {
+  position: relative;
+  display: flex;
+}
+
+.slider-container{
+  /* display: flex; */
+  max-width: 560px;
+  overflow: hidden;
+  /* display: flex;
+   */
+}
+
+.slider-imgs{
+  display: flex;
+  transition: all ease 1s;
+}
+
+.text-quality {
+  font-family: "Rubik Mono One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 187px;
+  line-height: 173px;
+  text-transform: uppercase;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.95) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  opacity: 0.7;
+  /* letter-spacing: -15px; */
+  padding-top: 152px;
+  max-width: 897px;
+}
+
+.describes-icon {
+  position: absolute;
+  top: 87px;
+  right: -4px;
+}
+
+.describes_expl {
+  padding-top: 135px;
+  padding-left: 77px;
+}
+
+.describes_advantages {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 50px;
+  color: #292d32;
+  /* margin-bottom: 76px; */
+}
+
+.describes_optimization {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #838383;
+  max-width: 518px;
+  padding-top: 37px;
+  padding-bottom: 41px;
+}
+
+.describes-container_cards {
+  max-width: 1401px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 129px;
+  padding-bottom: 46px;
+}
+
+.describes_card {
+  max-width: 330px;
+  background-repeat: no-repeat;
+  contain: content;
+}
+
+.describes_card_first {
+  background-image: url("/task/assets/imgs/Frame 30.png");
+}
+
+.describes_card_second {
+  background-image: url("/task/assets/imgs/Frame 31.png");
+}
+
+.describes_card_third {
+  background-image: url("/task/assets/imgs/Frame 32.png");
+}
+
+.describes_card_third {
+  background-image: url("/task/assets/imgs/Frame 33.png");
+}
+
+.describes_card_fourth {
+  background-image: url("/task/assets/imgs/Frame 33.png");
+}
+
+.describes_name {
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  color: #ffffff;
+  padding-bottom: 13px;
+  letter-spacing: 0.2px;
+}
+
+.describe_expl {
+  font-family: "Euclid Circular A";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  color: #b7b7b7;
+  max-width: 276px;
+  padding: 0 23px 34px 0;
+}
+
+.describe_card-container {
+  padding: 30px 0 0 31px;
+}
+
+.describes_icon {
+  width: 70px;
+  height: 70px;
+  background: #343a41;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+
+  img {
+    width: 36.11px;
+    height: 36.11px;
+  }
+}
+
+.describes_name_card {
+  max-width: 203px;
+}
+
+@media (max-width: 1500px) {
+  .describes-info {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    /* padding: 0 15px; */
+  }
+
+  .describe_card-container {
+    margin-bottom: 20px;
+  }
+
+  .describes-container_cards {
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 950px) {
+  .describes_advantages {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 50px;
+    color: #292d32;
+  }
+
+  .slider-container{
+   max-width: 330px;
+  }
+
+  .describes_optimization {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    max-width: 300px;
+    color: #838383;
+    padding-top: 22px;
+    padding-bottom: 30px;
+  }
+
+  .describes-info {
+    justify-content: start;
+  }
+  .describes-icon {
+    top: -60px;
+    right: 14px;
+    img {
+      max-width: 283px;
+    }
+  }
+  .text-quality {
+    font-size: 71px;
+    padding-top: 26px;
+    line-height: 67px;
+    padding-left: 11px;
+  }
+  .describes_expl {
+    padding-top: 99px;
+    padding-left: 15px;
+  }
+
+  .describes-container_cards {
+    margin-top: 16px;
+    padding-bottom: 104px;
+  }
+
+  .describes_name_card::before {
+    content: "У нас   ";
+  }
+
+  .describes_name {
+    font-family: "Euclid Circular A";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+
+    padding-bottom: 9px;
+    max-width: 281px;
+  }
+
+  .describes_name_card {
+    max-width: 220px;
+  }
+
+  .describe_expl {
+    font-family: "Euclid Circular A";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 0 23px 16px 0;
+    color: #b7b7b7;
+    max-width: 300px;
+  }
+
+  .describes_icon {
+    max-width: 50px;
+    max-height: 50px;
+    margin-bottom: 16px;
+  }
+
+  .describes_card {
+    margin-bottom: 20px;
+    max-width: 345px;
+    border-radius: 10px;
+  }
+  .describes_card {
+    width: 345px;
+  }
+
+  .describes_card {
+    background-image: url("/task/assets/imgs/Frame 44.png");
+  }
+
+  .describes_card_fourth {
+    padding-bottom: 43px;
+  }
+
+  .describe_card-container {
+    margin-bottom: 0px;
+    padding: 14px 0 0 16px;
+  }
+
+  .describes_icon img {
+    width: 31px;
+    height: 31px;
+  }
+
+  .wrapper-news_card:nth-child(4),
+  .wrapper-news_card:nth-child(5),
+  .wrapper-news_card:nth-child(6){
+    display: none;
+  }
+}

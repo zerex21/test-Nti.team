@@ -1,0 +1,344 @@
+.wrapper-preview {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: end;
+}
+
+.preview-review {
+  background: #f2f2f2;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: end;
+}
+
+.review-container {
+  max-width: 920px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.preview-scroll {
+  padding-right: 104px;
+  padding-top: 25.4%;
+  text-align: center;
+  width: 26px;
+}
+
+.preview-price {
+  background-image: url("/task/assets/imgs/image 23.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 692px;
+  background-color: #f9f9f9;
+  height: 100%;
+}
+
+.preview-dell {
+  position: absolute;
+  top: 11.2%;
+  left: 17%;
+  font-family: "Rubik Mono One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 289px;
+  line-height: 92.69%;
+  text-transform: uppercase;
+  background: linear-gradient(
+      0deg,
+      #eeeeee -45.37%,
+      rgba(238, 238, 238, 0) 95.17%
+    ),
+    linear-gradient(
+      89.91deg,
+      rgba(255, 255, 255, 0.85) 11.75%,
+      rgba(255, 255, 255, 0) 162.35%
+    );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.preview-scroll_text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 23px;
+  color: #838383;
+  writing-mode: tb-rl;
+  transform: rotate(180deg);
+  padding-top: 16px;
+}
+
+.goods-describe {
+  z-index: 9;
+  padding-top: 253px;
+  padding-right: 9px;
+}
+
+.new-goods {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+  color: #838383;
+  padding-bottom: 15px;
+}
+
+.text-view {
+  max-width: 396px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 59px;
+  margin-bottom: 60px;
+  color: #292d32;
+}
+
+.show {
+  display: flex;
+  align-items: center;
+}
+
+.show_button {
+  margin-right: 12px;
+
+  img{
+    &:hover{
+      cursor: pointer;
+    }
+  }
+}
+
+.button-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #292d32;
+}
+
+.slider-arrow{
+  &:hover{
+    cursor: pointer;
+  }
+}
+
+.slider {
+  z-index: 1;
+  padding-top: 74px;
+  padding-bottom: 50px;
+  padding-right: 57px;
+}
+
+.slider-imgs {
+  padding-right: 60px;
+}
+
+.slider-dots {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 69px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 9px;
+  padding-right: 40px;
+  right: 0;
+  top: 74%;
+}
+
+.dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #d0d0d0;
+}
+
+.current-dot {
+  width: 9px;
+  height: 9px;
+  background: #292d32;
+}
+
+.preview-price_container {
+  padding: 321px 0 64px 40px;
+  max-width: 181px;
+  margin-bottom: 95px;
+}
+
+.preview-price_text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 32px;
+  color: #292d32;
+  margin-bottom: 81px;
+}
+.arrow2 {
+  display: none;
+}
+@media (max-width: 1465px) {
+  .preview-scroll {
+    display: none;
+  }
+
+  .goods-describe {
+    padding-left: 15px;
+  }
+
+  .preview-dell {
+    font-size: 200px;
+  }
+}
+
+@media (max-width: 1380px) {
+  .wrapper-preview {
+    display: block;
+  }
+  .goods-describe {
+    position: relative;
+    padding-top: 130px;
+  }
+  .preview-dell {
+    top: 11px;
+    left: 25px;
+  }
+  .text-view {
+    margin-bottom: 28px;
+  }
+  .preview-review {
+    display: block;
+  }
+
+  .preview-price {
+    width: auto;
+    background-image: url("/task/assets/imgs/image 23 (2).png");
+    background-position: 97% 52%;
+    background-size: 255px 168px;
+    height: 196px;
+    width: 100%;
+  }
+
+  .slider {
+    display: grid;
+    justify-content: center;
+    padding-top: 5px;
+  }
+  .slider-imgs {
+    padding-right: 0;
+  }
+
+  .slider-navigation {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin: -38px -10px 0 0;
+  }
+
+  .arrow1 {
+    display: none;
+  }
+
+  .arrow2 {
+    display: block;
+  }
+  .preview-price_container {
+    padding: 0 0 0 0;
+  }
+
+  .preview-price_text {
+    margin-bottom: 0;
+  }
+
+  .slider-dots {
+    position: inherit;
+    top: auto;
+    bottom: 25px;
+    width: 56px;
+  }
+  .dot {
+    width: 3px;
+    height: 3px;
+  }
+  .current-dot {
+    width: 5px;
+    height: 5px;
+  }
+
+  .preview-price_text {
+    padding: 59px 0 0 15px;
+    max-width: 145px;
+  }
+}
+
+@media (max-width: 800px) {
+  .slider-imgs {
+    img {
+      max-width: 327px;
+    }
+  }
+
+  .goods-describe {
+    padding-top: 80px;
+  }
+
+  .preview-price_text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    /* or 26px */
+
+    color: #292d32;
+  }
+
+  .preview-dell {
+    font-size: 110px;
+  }
+
+  .new-goods {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 133.69%;
+    color: #838383;
+    padding-bottom: 5px;
+  }
+  .text-view {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #292d32;
+
+    max-width: 240px;
+  }
+
+  .show_button {
+    img {
+      max-width: 45px;
+    }
+  }
+
+  .slider {
+    padding-bottom: 10px;
+  }
+
+.slider {
+
+  padding-right: 0px;
+}
+
+}

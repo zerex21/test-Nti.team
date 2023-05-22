@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}.scroll {
+  overflow: hidden;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1920px;
+}
+
+ul{
+  li{
+    &:hover{
+      cursor: pointer;
+    }
+  }
+}
+
+@media (max-width: 1465px) {
+  .wrapper-header {
+    margin: 0 15px;
+  }
+}
+
+@font-face {
+  font-family: "Euclid Circular A";
+  src: url("/task/assets/fonts/Euclid Circular A Regular.ttf");
+}
+
+@font-face {
+  font-family: "Rubik Mono One";
+  src: url("/task/assets/fonts/RubikOne-Regular.ttf");
+}
+
+@import "./main/news";
+@import "./header/header";
+@import "./main/preview";
+@import "./main/goods";
+@import "./main/describes";
+@import "./main/contacts";
+@import "./footer/footer";
+
+
+
