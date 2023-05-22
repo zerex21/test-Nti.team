@@ -14,6 +14,10 @@
   max-width: 1920px;
 }
 
+ul li:hover {
+  cursor: pointer;
+}
+
 @media (max-width: 1465px) {
   .wrapper-header {
     margin: 0 15px;
@@ -186,6 +190,9 @@
   margin-top: 3px;
   margin-right: 50px;
 }
+.wrapper-news_play:hover {
+  cursor: pointer;
+}
 
 .wrapper-news_text {
   font-family: "Roboto";
@@ -342,7 +349,6 @@
   justify-content: space-between;
   padding: 27px 0 22px 0;
   max-width: 1400px;
-  /* z-index: 20; */
 }
 
 .header-info {
@@ -358,7 +364,6 @@
 .header-nav {
   padding-right: 48px;
   width: 536px;
-  /* display: block; */
 }
 .header-nav ul {
   padding-bottom: 3px;
@@ -375,6 +380,9 @@
   color: #292d32;
   list-style: none;
 }
+.header-nav ul li:hover {
+  cursor: pointer;
+}
 
 .header-sprite {
   position: relative;
@@ -385,6 +393,9 @@
 }
 .header-sprite_icon {
   height: 55px;
+}
+.header-sprite_icon:hover {
+  cursor: pointer;
 }
 
 .basket-count {
@@ -419,7 +430,6 @@
   height: 46px;
   border-radius: 50%;
   background: #f9f9f9;
-  /*  padding-right: 32px; */
 }
 
 .menu-btn span {
@@ -430,7 +440,6 @@
   left: 50%;
   transform: translate(-50%, -50%);
   background: #292d32;
-  /* border: radius 2px; */
   transition: all 0.5s;
 }
 
@@ -461,12 +470,10 @@
 
 .down_menu {
   display: none;
-  /* overflow: hidden; */
   top: 56px;
   position: absolute;
   z-index: 10;
   width: 405px;
-  /* background-color: white; */
   border-radius: 20px;
   right: 63px;
   filter: drop-shadow(0px 14px 75px rgba(0, 0, 0, 0.13)) drop-shadow(0px 1.75302px 9.39116px rgba(0, 0, 0, 0.065));
@@ -568,11 +575,6 @@
   }
 }
 @media (max-width: 1100px) {
-  /*  .menu-btn {
-    span{
-     left: 30%;
-    }
-   } */
   .header-nav {
     display: none;
     animation: ani 1.3s forwards;
@@ -673,8 +675,6 @@
   width: 692px;
   background-color: #f9f9f9;
   height: 100%;
-  /* height: 684px; */
-  /* padding-bottom:63px; */
 }
 
 .preview-dell {
@@ -709,7 +709,7 @@
 .goods-describe {
   z-index: 9;
   padding-top: 253px;
-  padding-right: 8px;
+  padding-right: 9px;
 }
 
 .new-goods {
@@ -741,6 +741,9 @@
 .show_button {
   margin-right: 12px;
 }
+.show_button img:hover {
+  cursor: pointer;
+}
 
 .button-text {
   font-family: "Roboto";
@@ -751,10 +754,15 @@
   color: #292d32;
 }
 
+.slider-arrow:hover {
+  cursor: pointer;
+}
+
 .slider {
   z-index: 1;
   padding-top: 74px;
   padding-bottom: 50px;
+  padding-right: 57px;
 }
 
 .slider-imgs {
@@ -931,7 +939,10 @@
     max-width: 45px;
   }
   .slider {
-    padding-bottom: 6px;
+    padding-bottom: 10px;
+  }
+  .slider {
+    padding-right: 0px;
   }
 }
 .wrapper-goods {
@@ -1006,6 +1017,10 @@
 .goods-icon_EMC {
   top: 38px;
   right: 30px;
+}
+
+.card:hover {
+  cursor: pointer;
 }
 
 .card-name_review {
@@ -1955,9 +1970,6 @@
     padding-bottom: 31px;
     background-image: url("/task/assets/imgs/Group 1184 (3).png");
   }
-  /* .contacts-request{
-    padding-bottom: 57px;
-  } */
 }
 .footer-wrapper {
   position: relative;

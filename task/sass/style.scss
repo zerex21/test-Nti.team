@@ -11,6 +11,14 @@
   max-width: 1920px;
 }
 
+ul{
+  li{
+    &:hover{
+      cursor: pointer;
+    }
+  }
+}
+
 @media (max-width: 1465px) {
   .wrapper-header {
     margin: 0 15px;

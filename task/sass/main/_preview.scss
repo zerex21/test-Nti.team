@@ -32,8 +32,6 @@
   width: 692px;
   background-color: #f9f9f9;
   height: 100%;
-  /* height: 684px; */
-  /* padding-bottom:63px; */
 }
 
 .preview-dell {
@@ -77,7 +75,7 @@
 .goods-describe {
   z-index: 9;
   padding-top: 253px;
-  padding-right: 8px;
+  padding-right: 9px;
 }
 
 .new-goods {
@@ -108,6 +106,12 @@
 
 .show_button {
   margin-right: 12px;
+
+  img{
+    &:hover{
+      cursor: pointer;
+    }
+  }
 }
 
 .button-text {
@@ -118,10 +122,18 @@
   line-height: 30px;
   color: #292d32;
 }
+
+.slider-arrow{
+  &:hover{
+    cursor: pointer;
+  }
+}
+
 .slider {
   z-index: 1;
   padding-top: 74px;
   padding-bottom: 50px;
+  padding-right: 57px;
 }
 
 .slider-imgs {
@@ -321,6 +333,12 @@
   }
 
   .slider {
-    padding-bottom: 6px;
+    padding-bottom: 10px;
   }
+
+.slider {
+
+  padding-right: 0px;
+}
+
 }

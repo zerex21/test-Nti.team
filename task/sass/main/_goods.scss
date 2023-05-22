@@ -72,6 +72,12 @@
   right: 30px;
 }
 
+.card{
+  &:hover{
+    cursor: pointer;
+  }
+}
+
 .card-name_review {
   max-width: 388px;
   font-family: "Roboto";
