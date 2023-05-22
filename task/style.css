@@ -1654,7 +1654,7 @@
   margin-left: 6px;
   font-size: 30px;
   width: 95%;
-  height: 45px;
+  height: 41px;
   border-radius: 45px;
   font-weight: bold;
   background-color: #292d32;
@@ -1826,13 +1826,13 @@
   .contacts-input_number input {
     margin-top: 19px;
     width: 96%;
-    height: 31px;
+    height: 26px;
     font-size: 15px;
   }
   .contacts-input_name input {
     margin-top: 19px;
     width: 96%;
-    height: 31px;
+    height: 26px;
     font-size: 15px;
   }
   .contacts-input_text textarea {
