@@ -8,10 +8,49 @@
   align-items: center;
 }
 
+
 .describes-view {
   position: relative;
   display: flex;
 }
+
+.slider-container{
+  /* display: flex; */
+  max-width: 560px;
+  overflow: hidden;
+  /* display: flex;
+   */
+}
+
+.slider-imgs{
+  display: flex;
+  transition: all ease 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .text-quality {
   font-family: "Rubik Mono One";
@@ -174,6 +213,10 @@
     font-size: 30px;
     line-height: 50px;
     color: #292d32;
+  }
+
+  .slider-container{
+   max-width: 330px;
   }
 
   .describes_optimization {

@@ -358,6 +358,7 @@
 .header-nav {
   padding-right: 48px;
   width: 536px;
+  /* display: block; */
 }
 .header-nav ul {
   padding-bottom: 3px;
@@ -1209,6 +1210,19 @@
   display: flex;
 }
 
+.slider-container {
+  /* display: flex; */
+  max-width: 560px;
+  overflow: hidden;
+  /* display: flex;
+   */
+}
+
+.slider-imgs {
+  display: flex;
+  transition: all ease 1s;
+}
+
 .text-quality {
   font-family: "Rubik Mono One";
   font-style: normal;
@@ -1362,6 +1376,9 @@
     font-size: 30px;
     line-height: 50px;
     color: #292d32;
+  }
+  .slider-container {
+    max-width: 330px;
   }
   .describes_optimization {
     font-family: "Roboto";

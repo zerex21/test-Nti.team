@@ -28,9 +28,9 @@ let burgerToggle = () =>{
 let closeBurger = () =>{
     document.addEventListener( 'click', (e) => {
         const withinBoundaries = e.composedPath().includes(headerNav);
-        if ( ! withinBoundaries && e.target != burgerSpan1 && e.target !=burgerSpan2 && e.target !=burgerSpan3 ) {
+       /*  if ( ! withinBoundaries && e.target != burgerSpan1 && e.target !=burgerSpan2 && e.target !=burgerSpan3 ) {
             closeAdditions();
-        }
+        } */
 
         if(e.target.tagName === 'A'){
             closeAdditions();
