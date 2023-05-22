@@ -4,6 +4,7 @@
   justify-content: space-between;
   padding: 27px 0 22px 0;
   max-width: 1400px;
+  /* z-index: 20; */
 }
 
 .header-info {
@@ -120,15 +121,14 @@
   cursor: pointer;
 }
 
-.header-sprite_icon:hover{
-  .down_menu{
+.header-sprite_icon:hover {
+  .down_menu {
     display: block;
     overflow: visible;
   }
-
 }
 
-.down_menu{
+.down_menu {
   display: none;
   /* overflow: hidden; */
   top: 56px;
@@ -138,88 +138,142 @@
   /* background-color: white; */
   border-radius: 20px;
   right: 63px;
-  filter: drop-shadow(0px 14px 75px rgba(0, 0, 0, 0.13)) drop-shadow(0px 1.75302px 9.39116px rgba(0, 0, 0, 0.065));
+  filter: drop-shadow(0px 14px 75px rgba(0, 0, 0, 0.13))
+    drop-shadow(0px 1.75302px 9.39116px rgba(0, 0, 0, 0.065));
 }
 
-.invisible_block{
+.invisible_block {
   height: 40px;
   background: rgba(0, 0, 0, 0);
 }
 
-.down_menu::before{
-    content: '';
-    position: absolute;
-    top:18px ;
-    left: 196px;
-    border: 11px solid transparent;
-    border-bottom: 11px solid white;
-
+.down_menu::before {
+  content: "";
+  position: absolute;
+  top: 18px;
+  left: 196px;
+  border: 11px solid transparent;
+  border-bottom: 11px solid white;
 }
 
-.down_menu_logo_block{
+.down_menu_logo_block {
   border-radius: 20px 20px 0px 00px;
   background-color: white;
   display: flex;
   align-items: center;
   padding: 31.49px 0 22px 30px;
 
-  .down_menu_icon{
+  .down_menu_icon {
     padding-right: 20px;
   }
 }
 
-.down_menu_name{
-
-  font-family: 'Roboto';
+.header-sprite_icon_name {
+  display: none;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 150%;
-  /* identical to box height, or 30px */
-
-
   color: #000000;
 }
 
-.header-sprite_icon_name{
-  display: none;
-/*   width: 335px for .header-sprite; */
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 150%;
-/* identical to box height, or 30px */
-
-
-color: #000000;
-}
-
-.submenu{
+.submenu {
   border-radius: 0px 0px 20px 20px;
   background-color: white;
-  /* width: 100%; */
-  li{
+  li {
     list-style: none;
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 150%;
-/* identical to box height, or 30px */
-
-
-color: #000000;
-padding: 20px 40px 20px 30px;
-/* padding-left: 30px; */
-border-top: 1px solid #F2F2F2;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000;
+    padding: 20px 40px 20px 30px;
+    border-top: 1px solid #f2f2f2;
   }
 }
 
+.shadow::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 105%;
+  top: 100px;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  z-index: 1;
+}
+
+
+.close span:nth-of-type(1) {
+  display: none;
+}
+.close span:nth-of-type(2) {
+  top: calc(50% - 2px);
+  transform: rotate(40deg);
+  background: #292d32;
+  position: absolute;
+  z-index: 10;
+  left: 30%;
+}
+.close span:nth-of-type(3) {
+  top: calc(46% + 0px);
+  transform: rotate(140deg);
+  background: #292d32;
+  position: absolute;
+  left: 30%;
+
+}
+
+@keyframes ani {
+  0% {
+    transform: translateY(-150%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
 
 @media (max-width: 1100px) {
+
+ /*  .menu-btn {
+   span{
+    left: 30%;
+   }
+  } */
+
   .header-nav {
     display: none;
+    animation: ani 1.3s forwards;
+    position: absolute;
+    z-index: 10;
+    top: 100px;
+    left: 0;
+    background-color: white;
+    width: 100%;
+    ul {
+      padding: 32px 0 39px 10px;
+      display: block;
+      padding-left: 10px;
+      min-width: 0;
+
+      li {
+        padding: 23px 0;
+        padding-left: 29px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px;
+         text-transform: uppercase;
+        color: #292d32;
+      }
+    }
   }
   .menu-btn {
     display: block;
@@ -231,15 +285,15 @@ border-top: 1px solid #F2F2F2;
 }
 
 @media (max-width: 520px) {
-  .menu-btn {
-    /*  padding-right: 32px;; */
-    /* width: 100%; */
-  }
   .header-sprite_icon {
     img {
       width: 46px;
       height: 46px;
     }
+  }
+
+  .header-nav {
+    top: 89px;
   }
 
   .basket-count {
