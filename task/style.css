@@ -25,11 +25,11 @@ ul li:hover {
 }
 @font-face {
   font-family: "Euclid Circular A";
-  src: url("/task/assets/fonts/Euclid Circular A Regular.ttf");
+  src: url("../task/assets/fonts/Euclid Circular A Regular.ttf");
 }
 @font-face {
   font-family: "Rubik Mono One";
-  src: url("/task/assets/fonts/RubikOne-Regular.ttf");
+  src: url("../task/assets/fonts/RubikOne-Regular.ttf");
 }
 .wrapper-news_info {
   padding-top: 153px;
@@ -97,31 +97,31 @@ ul li:hover {
 }
 
 .card1 {
-  background-image: url("/task/assets/imgs/Card1.png");
+  background-image: url("../task/assets/imgs/Card1.png");
 }
 
 .card2 {
-  background-image: url("/task/assets/imgs/Card2.png");
+  background-image: url("../task/assets/imgs/Card2.png");
   background-position: 46% 49%;
 }
 
 .card3 {
-  background-image: url("/task/assets/imgs/Card3.png");
+  background-image: url("../task/assets/imgs/Card3.png");
   background-position: 44% 46%;
 }
 
 .card4 {
-  background-image: url("/task/assets/imgs/Card4.png");
+  background-image: url("../task/assets/imgs/Card4.png");
   background-position: 49% 42%;
 }
 
 .card5 {
-  background-image: url("/task/assets/imgs/Card5.png");
+  background-image: url("../task/assets/imgs/Card5.png");
   background-position: 48% 42%;
 }
 
 .card6 {
-  background-image: url("/task/assets/imgs/Card6.png");
+  background-image: url("../task/assets/imgs/Card6.png");
   background-position: 46% 42%;
 }
 
@@ -266,15 +266,15 @@ ul li:hover {
     margin-bottom: 10px;
   }
   .card1 {
-    background-image: url("/task/assets/imgs/Card11.png");
+    background-image: url("../task/assets/imgs/Card11.png");
     margin-bottom: 20px;
   }
   .card2 {
-    background-image: url("/task/assets/imgs/Card22.png");
+    background-image: url("../task/assets/imgs/Card22.png");
     background-position: 46% 49%;
   }
   .card3 {
-    background-image: url("/task/assets/imgs/Card33.png");
+    background-image: url("../task/assets/imgs/Card33.png");
     background-position: 44% 46%;
   }
   .card4 {
@@ -669,7 +669,7 @@ ul li:hover {
 }
 
 .preview-price {
-  background-image: url("/task/assets/imgs/image 23.png");
+  background-image: url("../task/assets/imgs/image 23.png");
   background-repeat: no-repeat;
   background-size: contain;
   width: 692px;
@@ -847,7 +847,7 @@ ul li:hover {
   }
   .preview-price {
     width: auto;
-    background-image: url("/task/assets/imgs/image 23 (2).png");
+    background-image: url("../task/assets/imgs/image 23 (2).png");
     background-position: 97% 52%;
     background-size: 255px 168px;
     height: 196px;
@@ -1306,23 +1306,23 @@ ul li:hover {
 }
 
 .describes_card_first {
-  background-image: url("/task/assets/imgs/Frame 30.png");
+  background-image: url("../task/assets/imgs/Frame 30.png");
 }
 
 .describes_card_second {
-  background-image: url("/task/assets/imgs/Frame 31.png");
+  background-image: url("../task/assets/imgs/Frame 31.png");
 }
 
 .describes_card_third {
-  background-image: url("/task/assets/imgs/Frame 32.png");
+  background-image: url("../task/assets/imgs/Frame 32.png");
 }
 
 .describes_card_third {
-  background-image: url("/task/assets/imgs/Frame 33.png");
+  background-image: url("../task/assets/imgs/Frame 33.png");
 }
 
 .describes_card_fourth {
-  background-image: url("/task/assets/imgs/Frame 33.png");
+  background-image: url("../task/assets/imgs/Frame 33.png");
 }
 
 .describes_name {
@@ -1469,7 +1469,7 @@ ul li:hover {
     width: 345px;
   }
   .describes_card {
-    background-image: url("/task/assets/imgs/Frame 44.png");
+    background-image: url("../task/assets/imgs/Frame 44.png");
   }
   .describes_card_fourth {
     padding-bottom: 43px;
@@ -1676,7 +1676,7 @@ ul li:hover {
 }
 
 .contacts-input_name {
-  background-image: url("/task/assets/imgs/Group 1182 (2).png");
+  background-image: url("../task/assets/imgs/Group 1182 (2).png");
   background-repeat: no-repeat;
   height: 75px;
   padding-bottom: 37px;
@@ -1697,7 +1697,7 @@ ul li:hover {
 }
 
 .contacts-input_number {
-  background-image: url("/task/assets/imgs/Group 1183 (2).png");
+  background-image: url("../task/assets/imgs/Group 1183 (2).png");
   background-repeat: no-repeat;
   height: 75px;
   padding-bottom: 37px;
@@ -1718,7 +1718,7 @@ ul li:hover {
 }
 
 .contacts-input_text {
-  background-image: url("/task/assets/imgs/Group 1184 (2).png");
+  background-image: url("../task/assets/imgs/Group 1184 (2).png");
   background-repeat: no-repeat;
   height: 160px;
   padding-bottom: 54px;
@@ -1960,15 +1960,15 @@ ul li:hover {
     height: 26.16px;
   }
   .contacts-input_name {
-    background-image: url("/task/assets/imgs/Group 1182 (3).png");
+    background-image: url("../task/assets/imgs/Group 1182 (3).png");
   }
   .contacts-input_number {
-    background-image: url("/task/assets/imgs/Group 1183 (3).png");
+    background-image: url("../task/assets/imgs/Group 1183 (3).png");
   }
   .contacts-input_text {
     height: auto;
     padding-bottom: 31px;
-    background-image: url("/task/assets/imgs/Group 1184 (3).png");
+    background-image: url("../task/assets/imgs/Group 1184 (3).png");
   }
 }
 .footer-wrapper {
